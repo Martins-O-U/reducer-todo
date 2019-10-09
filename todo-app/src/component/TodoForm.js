@@ -28,7 +28,7 @@ const TodoForm = ({ state, dispatch }) => {
       <form onSubmit={onFormSubmit}>
         <input
           type="text"
-          placeholder="Task"
+          placeholder="Enter Task..."
           onChange={onValueChange}
           value={state.form}
         />

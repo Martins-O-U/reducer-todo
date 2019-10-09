@@ -18,7 +18,6 @@ const Todos = ({ dispatch, todos }) => {
               <div style={{ textDecoration: 'line-through' }}>
                 {item.item}
               </div>
-              {item.timeCompleted && <div>{item.timeCompleted}</div>}
             </div>
           ) : (
             <div key={item.id} onClick={() => markComplete(item.id)}>
